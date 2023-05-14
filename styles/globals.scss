@@ -165,11 +165,9 @@ color: #FFFFFF;
       }
       }
 /* Buttons */
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
-background-color:  rgba(160, 160, 160, 0.16);
-margin-bottom: 8px;
-box-shadow: none !important;
-}
+.MuiAccordionDetails-root{background-color:  rgba(160, 160, 160, 0.16);
+  margin-bottom: 8px;
+  box-shadow: none !important;}
 .sel{
   border: 1px solid black;
 }
