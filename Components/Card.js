@@ -66,6 +66,7 @@ export default function Card({ data, im }) {
             <Accordion>
         <AccordionSummary
         onClick={()=>window.open(data.wlink)}
+        style={{boxShadow:'none',backgroundColor:'rgba(160, 160, 160, 0.16)'}}
         >
           <Typography>Website</Typography>
         </AccordionSummary>
@@ -75,6 +76,7 @@ export default function Card({ data, im }) {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          style={{boxShadow:'none',backgroundColor:'rgba(160, 160, 160, 0.16)'}}
         >
           <Typography>Funding Information</Typography>
         </AccordionSummary>
@@ -89,6 +91,7 @@ export default function Card({ data, im }) {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          style={{boxShadow:'none',backgroundColor:'rgba(160, 160, 160, 0.16)'}}
         >
           <Typography>Initiatives</Typography>
         </AccordionSummary>

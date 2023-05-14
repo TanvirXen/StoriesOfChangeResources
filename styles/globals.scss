@@ -165,8 +165,9 @@ color: #FFFFFF;
       }
       }
 /* Buttons */
-.MuiAccordionDetails-root{background-color:  rgba(160, 160, 160, 0.16);
-  margin-bottom: 8px;
+.MuiAccordionDetails-root{
+  background-color:  rgba(160, 160, 160, 0.16) !important;
+  margin-bottom: 8px !important;
   box-shadow: none !important;}
 .sel{
   border: 1px solid black;
